@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-rate-limit",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Sails hook for rate limiting",
   "main": "index.js",
   "sails": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DominusKelvin/treblle-sails.git"
+    "url": "git+https://github.com/sailscastshq/sails-hook-rate-limit.git"
   },
   "keywords": [
     "sails",
