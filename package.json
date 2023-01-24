@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-rate-limit",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Sails hook for rate limiting",
   "main": "index.js",
   "sails": {
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "lint": "npx prettier --check .",
-    "lint:fix": "npx prettier --write ."
+    "lint:fix": "npx prettier --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,11 @@
     "express-rate-limit": "^6.7.0"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
     "prettier": "2.8.3"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
